@@ -1,0 +1,154 @@
+.clearfix {
+    clear: both;
+}
+
+
+/*Start body*/
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+/*end body*/
+
+
+/*Start news section*/
+
+.home-news {
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.home-news .news-holder {
+    float: left;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-right: 2%;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home-news .news-holder .news-box .label {
+    background-color: black;
+    display: inline-block;
+    padding: 2px 5px 4px;
+    border-radius: 5px;
+}
+
+.home-news .news-holder .news-box .news-title {
+    color: black;
+}
+
+.home-news .news-holder .news-box .news-img {
+    max-width: 100%;
+}
+
+.home-news .news-holder .news-box .news-text {
+    text-align: left;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.home-news .read-more {
+    background-color: #000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+.home-news .read-more:hover {
+    background-color: white;
+    color: black;
+}
+
+.home-news .news-box .news-holder .link {
+    color: #000;
+    text-decoration: none;
+}
+
+.home-news .news-box .news-holder .link:hover {
+    color: #ef7c28;
+}
+
+
+/*End news section*/
+
+
+/*Start side bar section*/
+
+.home-news .sidebar {
+    float: right;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+}
+
+.home-news .sidebar .widget {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-news .sidebar .widget-text {
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.home-news .sidebar .widget-img {
+    max-width: 100%;
+}
+
+.head-with-border::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    margin: 15px auto;
+}
+
+.home-news .sidebar .subscribe .subscribe-button,
+.home-news .sidebar .subscribe .subscribe-email {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.home-news .sidebar .subscribe .subscribe-email {
+    color: #808080;
+    border-style: none;
+    outline: none;
+    background: #eeddee;
+    padding: 12px 10px 10px 23px;
+    margin-top: 30px;
+}
+
+.home-news .sidebar .subscribe .subscribe-button {
+    text-align: left;
+    background-color: #000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.home-news .subscribe-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*End side bar section*/
