@@ -43,6 +43,11 @@ body {
     color: black;
 }
 
+.Themes .Themes-holder .Themes-box .Themes-title:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
 .Themes .Themes-holder .Themes-box .theme-img {
     max-width: 100%;
 }
