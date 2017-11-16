@@ -7,22 +7,22 @@
 
 body {
     margin: 0;
-    background-color: white;
+    /* background-color: rgba(136, 56, 56, 0.116);*/
 }
 
 
 /*end body*/
 
 
-/*Start news section*/
+/*Start theme section*/
 
-.home-news {
+.Themes {
     overflow: hidden;
     width: 1000px;
     margin: 0 auto;
 }
 
-.home-news .news-holder {
+.Themes .Themes-holder {
     float: left;
     width: 60%;
     margin-bottom: 40px;
@@ -32,29 +32,29 @@ body {
     text-align: center;
 }
 
-.home-news .news-holder .news-box .label {
+.Themes .Themes-holder .Themes-box .label {
     background-color: black;
     display: inline-block;
     padding: 2px 5px 4px;
     border-radius: 5px;
 }
 
-.home-news .news-holder .news-box .news-title {
+.Themes .Themes-holder .Themes-box .Themes-title {
     color: black;
 }
 
-.home-news .news-holder .news-box .news-img {
+.Themes .Themes-holder .Themes-box .theme-img {
     max-width: 100%;
 }
 
-.home-news .news-holder .news-box .news-text {
+.Themes .Themes-holder .Themes-box .theme-text {
     text-align: left;
     color: black;
     margin-bottom: 50px;
     margin-top: 10px;
 }
 
-.home-news .read-more {
+.Themes .buy-it {
     background-color: #000;
     color: #ffffff;
     display: inline-block;
@@ -63,48 +63,48 @@ body {
     border: 1px solid #000;
 }
 
-.home-news .read-more:hover {
+.Themes .buy-it:hover {
     background-color: white;
     color: black;
 }
 
-.home-news .news-box .news-holder .link {
+.Themes .Themes-box .Themes-holder .link {
     color: #000;
     text-decoration: none;
 }
 
-.home-news .news-box .news-holder .link:hover {
+.Themes .Themes-box .Themes-holder .link:hover {
     color: #ef7c28;
 }
 
 
-/*End news section*/
+/*End theme section*/
 
 
 /*Start side bar section*/
 
-.home-news .sidebar {
+.Themes .sidebar {
     float: right;
     width: 25%;
     background-color: white;
     padding: 20px;
 }
 
-.home-news .sidebar .widget {
+.Themes .sidebar .widget {
     background-color: white;
     padding: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.home-news .sidebar .widget-text {
+.Themes .sidebar .widget-text {
     text-align: left;
     color: #666;
     font-size: 14px;
     line-height: 1.6;
 }
 
-.home-news .sidebar .widget-img {
+.Themes .sidebar .widget-img {
     max-width: 100%;
 }
 
@@ -117,15 +117,15 @@ body {
     margin: 15px auto;
 }
 
-.home-news .sidebar .subscribe .subscribe-button,
-.home-news .sidebar .subscribe .subscribe-email {
+.Themes .sidebar .subscribe .subscribe-button,
+.Themes .sidebar .subscribe .subscribe-email {
     display: block;
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
 }
 
-.home-news .sidebar .subscribe .subscribe-email {
+.Themes .sidebar .subscribe .subscribe-email {
     color: #808080;
     border-style: none;
     outline: none;
@@ -134,7 +134,7 @@ body {
     margin-top: 30px;
 }
 
-.home-news .sidebar .subscribe .subscribe-button {
+.Themes .sidebar .subscribe .subscribe-button {
     text-align: left;
     background-color: #000;
     color: #ffffff;
@@ -145,7 +145,7 @@ body {
     cursor: pointer;
 }
 
-.home-news .subscribe-button:hover {
+.Themes .subscribe-button:hover {
     background-color: white;
     color: black;
 }
